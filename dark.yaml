@@ -1,0 +1,95 @@
+dark:
+  # Background image
+  lovelace-background: '25% bottom / cover no-repeat url("/local/img/backgrounds/bg03.jpg") fixed'
+
+  # Background image
+  background: '25% bottom / cover no-repeat url("/local/img/backgrounds/bg03.jpg") fixed'
+  background-image: 'url("/local/img/backgrounds/bg03.jpg")'
+
+  # Fonts
+  ha-card-header-font-family: 'open sans'
+  paper-font-headline_-_font-family: 'open sans' 
+
+  # Colors
+  text-color: '#546262'                                                           # Grey text
+  text-medium-color: '#4b5656'                                                    # Medium grey text
+  text-light-color: '#3b4646'                                                     # Light grey text
+  #accent-color: '#00a1ff'                                              
+  accent-color: '#5b8b8b'                                                         # accent color
+  ha-card-header-color: '#b6d9d6'                                # card header color 'rgba(192,235,249,0.65)'
+  dark-primary-color: orange # Hyperlinks                     
+  light-primary-color: red                    # Horizontal line in about
+
+
+    # Blue
+  background-color: '#010101'                                                     # Light grey background
+  background-color-2: '#1d1f1f'                                                   # Light grey background
+
+  background-card-color: 'rgba(22,30,30,1.0)'                                     # Black background opaque
+  background-card-color-translucent: 'rgba(255,255,255,0.85)'                     # Black background translucent
+  border-color: '#E8E8E8'                                                         # Light grey border
+  theme-color: '#5b8b8b'
+
+  # Header
+  primary-color: 'var(--background-color)'                                         # Background
+  text-primary-color: 'var(--accent-color)'                                                    # Text
+  paper-tabs-selection-bar-color: 'var(--accent-color)'                            # tabs highlight bar color
+  app-header-background-color: 'var(--background-color)'
+
+  # Left Menu / SIDBAR
+  paper-listbox-background-color: 'var(--background-color)'                       # Background
+  sidebar-text-color: 'var(--text-light-color)'                                                      # Sidebar text color & tootlip bg
+  sidebar-selected-text-color: 'var(--accent-color)'
+  sidebar-selected-icon-color: 'var(--accent-color)'
+  sidebar-icon-color: 'var(--background-card-color)'                                 # Sidbar icon color
+
+  # UI
+  paper-card-header-color: 'var(--text-color)'                         
+  # Title in settings
+  primary-background-color: 'var(--background-color)'                             # Background color (also title background in left menu)
+
+  # Card
+  paper-card-background-color: 'var(--background-card-color)'                     # Background
+  dark-primary-color: 'var(--text-color)'
+  primary-text-color: 'var(--text-color)'
+  paper-listbox-color: 'var(--text-color)'
+  light-primary-color: 'var(--text-light-color)'
+  secondary-text-color: 'var(--text-medium-color)'
+  disabled-text-color: 'var(--text-light-color)'
+  paper-dialog-button-color: 'var(--text-color)'
+  secondary-background-color: 'var(--background-color-2)'                         # Background more info title
+
+  # Icons
+  paper-item-icon-color: 'var(--text-light-color)'                                # Off
+  paper-item-icon-active-color: 'var(--accent-color)'                             # On
+
+  # Switches
+  switch-checked-button-color: '#FFF'                                             # Knob On
+  switch-unchecked-button-color: '#FFF'                                           # Knob Off
+  switch-checked-track-color: '#5b8b8b'                                           # Background On
+  switch-unchecked-track-color: 'var(--disabled-text-color)'                      # Background Off
+
+  # Slider
+  paper-slider-active-color: 'var(--accent-color)'                                # Line On
+  paper-slider-container-color: 'green'                                         # Line Off
+  paper-slider-knob-color: 'var(--text-light-color)'                              # Knob On
+  paper-slider-knob-start-color: 'var(--text-light-color)'                        # Knob Off
+
+  # Shadows
+  #ha-card-box-shadow: 'inset 0px 0px 0px 1px var(--border-color)'
+  ha-card-border-radius: '20px 10px 20px 10px'
+  ha-card-box-shadow: '0px 3px 6px 0px rgba(15,25,25,0.5)'
+  
+  
+  # HACS
+  hacs-badge-color: 'var(--accent-color)'                                         # New Badge
+  hacs-status-installed: 'var(--text-color)'                                      # Installed Icon
+  hacs-status-pending-restart: 'var(--text-light-color)'                          # Restart Icon
+  hacs-status-pending-update: 'var(--accent-color)'                               # Update Icon
+
+
+  # fixes trying to
+  paper-dialog-color:  '#b8d2d2 !important'
+  more-info-header-color: '#b8d2d2 !important'
+
+ 
